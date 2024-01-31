@@ -14,14 +14,14 @@ public class normal01 {
 
     }
     public void NestedIfStatement(){
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("1 ~ 10 사이의 정수를 하나 입력히세요 : ");
-
-        int num = sc.nextInt();
-
-        if (num % 2)
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        System.out.println("1 ~ 10 사이의 정수를 하나 입력히세요 : ");
+//
+//        int num = sc.nextInt();
+//
+////        if (num % 2)
 
 
     }
