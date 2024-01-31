@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.personal.Eunsung;
+package com.ohgiraffers.java.personal.Eunseong;
 
 public class Application1 {
 
