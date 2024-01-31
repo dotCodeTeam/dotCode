@@ -20,7 +20,7 @@ public class basic02 {
         System.out.print("정수를 하나 입력하세요 : ");
         int num = sc.nextInt();
         if ( num % 2 == 0 ) {
-            System.out.println(num + " = 짝수다,");
+            System.out.println(num + " = 짝수다.");
         }   else   {
             System.out.println(num + " = 홀수다.");
         }

@@ -21,8 +21,5 @@ public class normal01 {
 
         int num = sc.nextInt();
 
-        if (num % 2)
-
-
     }
 }
