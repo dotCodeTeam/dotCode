@@ -1,11 +1,13 @@
 package com.ohgiraffers.java.personal;
 
+import java.util.Scanner;
+
 public class Chanwool {
     public static void main(String[] args){
 
-        
+
         // 240129 내문제1
-        
+
         /*
           1. 문자형 자료형을 선언한후 'a' 값을 대입하여 초기화한다.
           2. 생성된 문자형 변수를 실수 자료형으로 형변환 한다.
@@ -45,11 +47,35 @@ public class Chanwool {
         // double 실수형은 int 정수형을 포함하고 있어 소수점이 있더라도 값이 같도록 연산된다.
 
 
-        // 240130 메소드 문제풀이
 
 
 
 
     }
+    public void testForExample4(){
+
+    /*
+        2~9 사이의 구구단을 입력받아
+        true인 경우 해당 단의 구구단을 출력하고,
+        false인 경우 "반드시 2~9 사이의 양수를 입력해야 합니다" 출력
+     */
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("구구단 보기 ( 2 ~ 9 ) : ");
+        int enterNum = sc.nextInt();
+        int gugu = 1;
+        int result = 0;
+
+        if ( enterNum >= 2 && enterNum < 10 ){
+            for ( int i = gugu ; i < 10 ; gugu++ ) {
+                result = enterNum * gugu;
+                System.out.println( enterNum + " * " + gugu + "= " + result );
+            }
+        } else {    System.out.println("반드시 2~9 사이의 양수를 입력해야 합니다!");    }
+
+        System.out.println("프로그램을 종료합니다...");
+    }
+
+    // 이게 왜안될까요
 
 }
