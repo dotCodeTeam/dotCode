@@ -21,7 +21,7 @@ public class Application1 {
 
         int num = sc.nextInt();
 
-        if (num % 2)
+//        if (num % 2)
 
 
     }
