@@ -1,5 +1,7 @@
 package com.ohgiraffers.java.practice.chanwool.chap04.looping.normal;
 
+import java.util.Scanner;
+
 public class normal01 {
     public static void main(String[] args) {
 
@@ -17,6 +19,14 @@ public class normal01 {
          * 3 : l
          * 4 : e
          * */
+        Scanner sc = new Scanner(System.in);
 
+        System.out.print("문자열을 입력하세요 : ");
+        String str = sc.nextLine();
+        int check;
+
+        for ( check = 0 ; check < str.length(); check++ )  {
+            System.out.println(check + " : " + str.charAt(check));
+        }
     }
 }
