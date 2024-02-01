@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.practice.eunseong.level01;
+package com.ohgiraffers.java.practice.eunseong.chap03method.level01;
 
 import java.util.Scanner;
 

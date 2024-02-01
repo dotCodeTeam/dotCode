@@ -1,6 +1,6 @@
-package com.ohgiraffers.java.practice.eunseong.level03;
+package com.ohgiraffers.java.practice.eunseong.chap04controlFlow.section01.level03;
 
-public class hard01 {
+public class Application1 {
 
     public static void main(String[] args) {
 
