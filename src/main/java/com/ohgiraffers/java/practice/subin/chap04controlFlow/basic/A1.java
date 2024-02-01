@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.practice.subin.chap04controlFlow.section01;
+package com.ohgiraffers.java.practice.subin.chap04controlFlow.basic;
 
 public class A1 {
     /* 1부터 10까지 합계를 구하고 결과를 출력하세요
