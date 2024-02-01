@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.personal;
+package com.ohgiraffers.java.study.suBin;
 
 public class Subin {
     public static void main(String[] args) {
