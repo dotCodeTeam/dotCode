@@ -78,4 +78,24 @@ public class Chanwool {
 
     // 이게 왜안될까요
 
+    public void printStarInputRowTimes(){
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("출력할 행 수을 입력하세요 : ");
+        int row = sc.nextInt();
+        String star = "";
+
+        for ( int i = 1 ; i <= row ;  i++ ) {
+            for ( int j = 1; j <= row ; j++ ) {
+                star += "*";
+                System.out.println(star);
+            }
+            star = "*";
+            System.out.println();
+        }
+    }
+    
+    // 피라미드모양 해봤어요
+
 }
