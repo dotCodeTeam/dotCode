@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.practice.jinhyun;
+package com.ohgiraffers.java.practice.jinhyun.chap03.basic0506;
 
 import java.util.Scanner;
 

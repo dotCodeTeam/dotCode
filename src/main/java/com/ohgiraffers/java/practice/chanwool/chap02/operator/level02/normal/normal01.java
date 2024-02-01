@@ -14,6 +14,5 @@ public class normal01 {
 
         String grade = (scoreInt>=90) ? "A" : (scoreInt>=80) ? "B" : (scoreInt>=70) ? "C" : (scoreInt>=60) ? "D" : "F";
         System.out.println(grade);           // 출력결과 : F
-
     }
 }

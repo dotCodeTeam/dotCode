@@ -1,4 +1,4 @@
-package com.greedy.level01.basic;
+package com.ohgiraffers.java.practice.chanwool.chap03.method.greedy.basic;
 
 public class Calculator {
 
