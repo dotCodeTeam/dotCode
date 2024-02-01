@@ -3,7 +3,7 @@ package com.ohgiraffers.java.practice.youngSang;
 import java.util.Scanner;
 
 public class Basic02 {
-    public static void main(String[] args) {
+    public void jungSu() {
 
 
 
