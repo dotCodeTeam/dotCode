@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.practice.subin;
+package com.ohgiraffers.java.practice.subin.method;
 
 public class Application1 {
     public static void main(String[] args) {

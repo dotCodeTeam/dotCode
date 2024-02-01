@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.practice.subin;
+package com.ohgiraffers.java.practice.subin.method;
 
 import java.util.Scanner;
 
