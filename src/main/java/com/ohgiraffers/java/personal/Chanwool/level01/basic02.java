@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.personal.Chanwool;
+package com.ohgiraffers.java.personal.Chanwool.level01;
 
 import java.util.Scanner;
 
