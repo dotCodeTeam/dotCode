@@ -21,30 +21,30 @@ public class Chanwool {
            true
         */
 
-        // 보기
-        int num = 99;               // 정수 자료형 num을 선언과 동시에 99값을 대입해 초기화
-        char ch = 'a';              // 1. 문자형 자료형을 선언한 후 'a' 값을 대입하여 초기화
-        double dnum = (double) ch;  // 2. 문자형 변수를 실수 자료형으로 형변환
-        //    값 대입 시 형변환 double생략 가능 > 자동형변환
-        num-- ;                     // 3. 정수형 변수 num 값에서 단항 증감연산자 이용해 -1
-        dnum += 1;                  //    형변환 된 실수 값 증감/변환
-        // dnum = dnum + 1 ;                        //    정답처리
-        // dnum++;                                  //    정답처리
-        // ++dnum;                                  //    정답처리
-
-        // int  inum = (int)  dnum;                 //    정답처리
-        // long lnum = (long) dnum;                 //    정답처리
-
-        System.out.println("num = " + num);         //    출력결과 : num = 98
-        System.out.println("dnum = " + dnum);       //    출력결과 : dnum = 98.0
-        System.out.println(num == dnum);            //    출력결과 : true
-        // System.out.println("inum = " + inum);    //    정답처리
-        // System.out.println(num == inum);         //    정답처리
-        // System.out.println("lnum = " + lnum);    //    정답처리
-        // System.out.println(num == lnum);         //    정답처리
-
-        // 보기의 정수값과  비교연산자를 이용하여 true 출력
-        // double 실수형은 int 정수형을 포함하고 있어 소수점이 있더라도 값이 같도록 연산된다.
+//        // 보기
+//        int num = 99;               // 정수 자료형 num을 선언과 동시에 99값을 대입해 초기화
+//        char ch = 'a';              // 1. 문자형 자료형을 선언한 후 'a' 값을 대입하여 초기화
+//        double dnum = (double) ch;  // 2. 문자형 변수를 실수 자료형으로 형변환
+//        //    값 대입 시 형변환 double생략 가능 > 자동형변환
+//        num-- ;                     // 3. 정수형 변수 num 값에서 단항 증감연산자 이용해 -1
+//        dnum += 1;                  //    형변환 된 실수 값 증감/변환
+//        // dnum = dnum + 1 ;                        //    정답처리
+//        // dnum++;                                  //    정답처리
+//        // ++dnum;                                  //    정답처리
+//
+//        // int  inum = (int)  dnum;                 //    정답처리
+//        // long lnum = (long) dnum;                 //    정답처리
+//
+//        System.out.println("num = " + num);         //    출력결과 : num = 98
+//        System.out.println("dnum = " + dnum);       //    출력결과 : dnum = 98.0
+//        System.out.println(num == dnum);            //    출력결과 : true
+//        // System.out.println("inum = " + inum);    //    정답처리
+//        // System.out.println(num == inum);         //    정답처리
+//        // System.out.println("lnum = " + lnum);    //    정답처리
+//        // System.out.println(num == lnum);         //    정답처리
+//
+//        // 보기의 정수값과  비교연산자를 이용하여 true 출력
+//        // double 실수형은 int 정수형을 포함하고 있어 소수점이 있더라도 값이 같도록 연산된다.
 
 
 
@@ -52,7 +52,7 @@ public class Chanwool {
 
 
     }
-    public void testForExample4(){
+//    public void testForExample4(){                                  //  이게 왜안될까요
 
     /*
         2~9 사이의 구구단을 입력받아
@@ -60,42 +60,64 @@ public class Chanwool {
         false인 경우 "반드시 2~9 사이의 양수를 입력해야 합니다" 출력
      */
 
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("구구단 보기 ( 2 ~ 9 ) : ");
+//        int enterNum = sc.nextInt();
+//        int gugu = 1;
+//        int result = 0;
+//
+//        if ( enterNum >= 2 && enterNum < 10 ){
+//            for ( int i = gugu ; i < 10 ; gugu++ ) {
+//                result = enterNum * gugu;
+//                System.out.println( enterNum + " * " + gugu + "= " + result );
+//            }
+//        } else {    System.out.println("반드시 2~9 사이의 양수를 입력해야 합니다!");    }
+//
+//        System.out.println("프로그램을 종료합니다...");
+//    }
+
+
+//    public void printStarInputRowTimes(){                     //  for문으로 피라미드모양 만들기 해봤어요
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        System.out.print("출력할 행 수을 입력하세요 : ");
+//        int row = sc.nextInt();
+//        String star = "";
+//
+//        for ( int i = 1 ; i <= row ;  i++ ) {
+//            for ( int j = 1; j <= row ; j++ ) {
+//                star += "*";
+//                System.out.println(star);
+//            }
+//            star = "*";
+//            System.out.println();
+//        }
+//    }
+
+
+    public void testWhileExample2() {       // while문 입력 계속 받을 수 있게 while문 추가해봤어요
+
         Scanner sc = new Scanner(System.in);
-        System.out.print("구구단 보기 ( 2 ~ 9 ) : ");
-        int enterNum = sc.nextInt();
-        int gugu = 1;
-        int result = 0;
 
-        if ( enterNum >= 2 && enterNum < 10 ){
-            for ( int i = gugu ; i < 10 ; gugu++ ) {
-                result = enterNum * gugu;
-                System.out.println( enterNum + " * " + gugu + "= " + result );
+        /*
+            정수 하나를 입력 받아 1부터 입력받은 정수까지의 합계를 구해보자.
+         */
+        while (true) {
+            System.out.print("정수를 하나 입력하세요 : ");
+            int num = sc.nextInt();
+
+            int i = 1;
+            int arSeq = 0;
+            while ( i <= num ) {
+                arSeq += i ;
+                i++;
             }
-        } else {    System.out.println("반드시 2~9 사이의 양수를 입력해야 합니다!");    }
-
-        System.out.println("프로그램을 종료합니다...");
-    }
-
-    // 이게 왜안될까요
-
-    public void printStarInputRowTimes(){
-
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("출력할 행 수을 입력하세요 : ");
-        int row = sc.nextInt();
-        String star = "";
-
-        for ( int i = 1 ; i <= row ;  i++ ) {
-            for ( int j = 1; j <= row ; j++ ) {
-                star += "*";
-                System.out.println(star);
-            }
-            star = "*";
-            System.out.println();
+            System.out.println("합계는 " + arSeq + "입니다.");
+            System.out.println("=========================");
         }
     }
     
-    // 피라미드모양 해봤어요
+    // while문 입력 계속 받을 수 있게 while문 추가해봤어요
 
 }
