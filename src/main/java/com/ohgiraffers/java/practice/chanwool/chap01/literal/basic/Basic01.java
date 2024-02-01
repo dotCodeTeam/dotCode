@@ -1,6 +1,6 @@
-package com.ohgiraffers.java.practice.chanwool.chap01.literal.level01.basic;
+package com.ohgiraffers.java.practice.chanwool.chap01.literal.basic;
 
-public class basic01 {
+public class Basic01 {
     public static void main(String[] args) {
 
         int a;

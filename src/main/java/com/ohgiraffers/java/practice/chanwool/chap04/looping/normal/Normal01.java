@@ -2,7 +2,7 @@ package com.ohgiraffers.java.practice.chanwool.chap04.looping.normal;
 
 import java.util.Scanner;
 
-public class normal01 {
+public class Normal01 {
     public static void main(String[] args) {
 
         /* 문자열을 입력 받아서 문자열의 각 인덱스별로 한 글자씩 출력하세요

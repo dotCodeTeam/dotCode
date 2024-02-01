@@ -1,6 +1,6 @@
-package com.ohgiraffers.java.practice.chanwool.chap02.operator.level02.normal;
+package com.ohgiraffers.java.practice.chanwool.chap02.operator.normal;
 
-public class normal01 {
+public class Normal01 {
     public static void main(String[] args) {
 
 //        double score = 90.5;               //     출력결과 : A

@@ -1,6 +1,6 @@
-package com.ohgiraffers.java.practice.chanwool.chap01.literal.level01.basic;
+package com.ohgiraffers.java.practice.chanwool.chap01.literal.basic;
 
-public class basic02 {
+public class Basic02 {
     public static void main(String[] args) {
 
         float width = 12.5f;

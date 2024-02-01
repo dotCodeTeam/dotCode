@@ -1,6 +1,6 @@
-package com.ohgiraffers.java.practice.chanwool.chap01.literal.level02.normal;
+package com.ohgiraffers.java.practice.chanwool.chap01.literal.normal;
 
-public class normal01 {
+public class Normal01 {
     public static void main(String[] args) {
 
         char ch;

@@ -2,7 +2,7 @@ package com.ohgiraffers.java.practice.chanwool.chap04.looping.basic;
 
 import java.util.Scanner;
 
-public class basic03 {
+public class Basic03 {
     public static void main(String[] args) {
 
         /* 1부터 입력받은 정수까지의 짝수의 합을 구하세요

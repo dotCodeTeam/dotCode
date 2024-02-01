@@ -1,6 +1,6 @@
-package com.ohgiraffers.java.practice.chanwool.chap01.literal.level02.normal;
+package com.ohgiraffers.java.practice.chanwool.chap01.literal.normal;
 
-public class normal02 {
+public class Normal02 {
     public static void main(String[] args) {
 
         float korean = 80.5f;

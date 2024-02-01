@@ -1,6 +1,6 @@
-package com.ohgiraffers.java.practice.chanwool.chap02.operator.level01.basic;
+package com.ohgiraffers.java.practice.chanwool.chap02.operator.basic;
 
-public class basic02 {
+public class Basic02 {
     public static void main(String[] args) {
 
         int score = 60;

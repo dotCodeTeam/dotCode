@@ -2,7 +2,7 @@ package com.ohgiraffers.java.practice.chanwool.chap04.looping.basic;
 
 import java.util.Scanner;
 
-public class basic01 {
+public class Basic01 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

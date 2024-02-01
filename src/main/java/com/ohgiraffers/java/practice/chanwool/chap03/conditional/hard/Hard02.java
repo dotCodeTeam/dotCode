@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.practice.chanwool.chap03.conditional.level03;
+package com.ohgiraffers.java.practice.chanwool.chap03.conditional.hard;
 
 import java.util.Scanner;
 
