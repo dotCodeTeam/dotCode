@@ -3,7 +3,7 @@ package com.ohgiraffers.java.personal;
 import java.util.Scanner;
 
 public class Chanwool {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
 
         // 240129 내문제1
@@ -46,12 +46,11 @@ public class Chanwool {
 //        // 보기의 정수값과  비교연산자를 이용하여 true 출력
 //        // double 실수형은 int 정수형을 포함하고 있어 소수점이 있더라도 값이 같도록 연산된다.
 
-
-
-
-
-
     }
+
+// ================================================================================================================
+
+
 //    public void testForExample4(){                                  //  이게 왜안될까요
 
     /*
@@ -77,6 +76,9 @@ public class Chanwool {
 //    }
 
 
+// ================================================================================================================
+
+
 //    public void printStarInputRowTimes(){                     //  for문으로 피라미드모양 만들기 해봤어요
 //
 //        Scanner sc = new Scanner(System.in);
@@ -96,28 +98,68 @@ public class Chanwool {
 //    }
 
 
-    public void testWhileExample2() {       // while문 입력 계속 받을 수 있게 while문 추가해봤어요
+// ================================================================================================================
 
-        Scanner sc = new Scanner(System.in);
 
-        /*
-            정수 하나를 입력 받아 1부터 입력받은 정수까지의 합계를 구해보자.
-         */
-        while (true) {
-            System.out.print("정수를 하나 입력하세요 : ");
-            int num = sc.nextInt();
+//    public void testWhileExample2() {       // while문 입력 계속 받을 수 있게 while문 추가해봤어요
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        /*
+//            정수 하나를 입력 받아 1부터 입력받은 정수까지의 합계를 구해보자.
+//         */
+//        while (true) {
+//            System.out.print("정수를 하나 입력하세요 : ");
+//            int num = sc.nextInt();
+//
+//            int i = 1;
+//            int arSeq = 0;
+//            while ( i <= num ) {
+//                arSeq += i ;
+//                i++;
+//            }
+//            System.out.println("합계는 " + arSeq + "입니다.");
+//            System.out.println("=========================");
+//        }
+//    }
 
-            int i = 1;
-            int arSeq = 0;
-            while ( i <= num ) {
-                arSeq += i ;
-                i++;
+        // while문 입력 계속 받을 수 있게 while문 추가해봤어요
+
+
+// ================================================================================================================
+
+
+        public void testSimpleContinueStatement() {                     // 오늘 배운거 응용해봤습니다
+
+            // 1~ 100 사이의 숫자를 입력받아 최소공배수 출력
+
+            Scanner sc = new Scanner(System.in);
+
+            int inum;
+            int count = 0;
+
+            while (count < 10) {
+                System.out.print("첫번째 값 입력 (1~100) : ");
+                int firNum = sc.nextInt();
+                System.out.print("두번째 값 입력 (1~100) : ");
+                int secNum = sc.nextInt();
+                if ((firNum >= 1 || firNum <= 100) || (secNum >= 1 || secNum <= 100)) {
+                    for (inum = 1; inum <= 100; inum++) {
+                        if (inum % firNum == 0 && inum % secNum == 0) {
+                            System.out.println(firNum + "과(와) " + secNum + "의 최소 공배수는 " + inum + "입니다.");
+                        } else {
+                            continue;
+                        }
+                    }
+                } else {
+                    System.out.println("값을 다시 입력하세요. (1~100)");
+                    count = 0;
+                }
+                count++;
             }
-            System.out.println("합계는 " + arSeq + "입니다.");
-            System.out.println("=========================");
+
         }
+
     }
-    
-    // while문 입력 계속 받을 수 있게 while문 추가해봤어요
 
 }
