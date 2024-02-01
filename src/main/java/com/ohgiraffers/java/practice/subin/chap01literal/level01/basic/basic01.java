@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.practice.subin.literal;
+package com.ohgiraffers.java.practice.subin.chap01literal.level01.basic;
 
 public class basic01 {
     public static void main(String[] args) {

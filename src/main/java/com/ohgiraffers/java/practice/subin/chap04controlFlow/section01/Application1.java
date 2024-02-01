@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.practice.subin.controlFlow;
+package com.ohgiraffers.java.practice.subin.chap04controlFlow.section01;
 
 public class Application1 {
     public static void main(String[] args) {

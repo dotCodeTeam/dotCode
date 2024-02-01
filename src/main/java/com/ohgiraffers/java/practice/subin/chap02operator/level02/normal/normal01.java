@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.practice.subin.operator;
+package com.ohgiraffers.java.practice.subin.chap02operator.level02.normal;
 
 public class normal01 {
     public static void main(String[] args) {
