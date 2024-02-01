@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.practice.eunseong.level03;
+package com.ohgiraffers.java.practice.eunseong.chap03method.level03;
 
 public class hard01 {
 

@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.practice.eunseong.level02;
+package com.ohgiraffers.java.practice.eunseong.chap03method.level02;
 
 public class normal02 {
 
