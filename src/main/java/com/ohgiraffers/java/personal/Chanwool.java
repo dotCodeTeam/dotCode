@@ -147,7 +147,7 @@ public class Chanwool {
                     for (inum = 1; inum <= 100; inum++) {
                         if (inum % firNum == 0 && inum % secNum == 0) {
                             System.out.println(firNum + "과(와) " + secNum + "의 최소 공배수는 " + inum + "입니다.");
-                        } else {
+                        }   else   {
                             continue;
                         }
                     }
