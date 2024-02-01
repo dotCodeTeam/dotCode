@@ -17,16 +17,13 @@ public class A3 {
         System.out.println("정수를 입력하세요 : ");
         int num = sc.nextInt();
 
-        int i = 1;
         int sum = 0;
 
-        while (i <= num) {
-            if(num % 2 == 0) {
-
+        for (int i = 1; i <= num; i++) {
+            if (i % 2 == 0) {
+                sum += i;
+            }
         }
-            sum += i;
-            i++;
-    }
         System.out.println("1부터  " + num + "까지 짝수의 합은 " + sum + " 입니다.");
     }
 }

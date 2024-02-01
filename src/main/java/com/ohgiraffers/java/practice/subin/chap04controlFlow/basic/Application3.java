@@ -11,5 +11,7 @@ public class Application3 {
          * -- 출력 예시 --
          * 1부터 10까지 짝수의 합 : 30
          * */
+        A3 a = new A3();
+        a.practiceApplication3();
     }
 }
