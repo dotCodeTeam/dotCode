@@ -6,7 +6,7 @@ public class Chanwool {
     public static void main(String[] args) {
 
 
-        // 240129 내문제1
+        // 240129 literal 문제만들기
 
         /*
           1. 문자형 자료형을 선언한후 'a' 값을 대입하여 초기화한다.
@@ -100,7 +100,7 @@ public class Chanwool {
 
 // ================================================================================================================
 
-
+        // 240201f
 //    public void testWhileExample2() {       // while문 입력 계속 받을 수 있게 while문 추가해봤어요
 //
 //        Scanner sc = new Scanner(System.in);
@@ -145,6 +145,7 @@ public class Chanwool {
                 int secNum = sc.nextInt();
                 if ((firNum >= 1 || firNum <= 100) || (secNum >= 1 || secNum <= 100)) {
                     for (inum = 1; inum <= 100; inum++) {
+
                         if (inum % firNum == 0 && inum % secNum == 0) {
                             System.out.println(firNum + "과(와) " + secNum + "의 최소 공배수는 " + inum + "입니다.");
                         }   else   {
@@ -153,6 +154,7 @@ public class Chanwool {
                     }
                 } else {
                     System.out.println("값을 다시 입력하세요. (1~100)");
+                    System.out.println();
                     count = 0;
                 }
                 count++;
