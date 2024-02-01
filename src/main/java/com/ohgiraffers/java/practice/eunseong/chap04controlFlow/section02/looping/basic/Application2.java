@@ -1,5 +1,7 @@
 package com.ohgiraffers.java.practice.eunseong.chap04controlFlow.section02.looping.basic;
 
+import java.util.Scanner;
+
 public class Application2 {
 
     public static void main(String[] args) {
@@ -13,5 +15,15 @@ public class Application2 {
          * 1부터 5까지의 합 : 15
          *
          * */
+    }
+
+    public void addUntilFive(){
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("정수를 입력하세요 : ");
+//        int i=1;
+//        for (i)
+//
+
     }
 }
