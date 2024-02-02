@@ -9,7 +9,7 @@ public class Application {
 
             예) 1 2 3 4 5 6 7 8 9 10
          */
-        System.out.println("====== Basic =======");
+        System.out.println("======= Basic ========");
         int iarr[] = new int[10];
 
         for (int i = 0; i < iarr.length; i++ )  {
@@ -17,7 +17,7 @@ public class Application {
             System.out.print(iarr[i] + " ");
         }
         System.out.println();
-        System.out.println("====== Normal ======");
+        System.out.println("======= Normal =======");
 
 
 /*===================================================================*/
@@ -36,7 +36,7 @@ public class Application {
         ArrMethod normal = new ArrMethod();
         normal.arrMethod1();
         System.out.println();
-        System.out.println("======= Hard =======");
+        System.out.println("======== Hard ========");
 
 /*===================================================================*/
 
@@ -53,7 +53,7 @@ public class Application {
 
         ArrMethod hard = new ArrMethod();       // 객체생성
         int index = hard.inputNum();            // 입력받은 index값 선언 후 초기화
-        System.out.println("====================");
+        System.out.println("=====================");
         int iarr2[] = new int[index];           // 입력받은 index값만큼의 배열 생성
         int resultArr[] = hard.inputIndexNum(iarr2);    // 그 배열에 1부터 입력받은 값을 각 index별 공간에 추가
         hard.print(resultArr);                  // 최종 배열의 각 index별 공간 값 출력
