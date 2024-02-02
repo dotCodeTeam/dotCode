@@ -20,16 +20,15 @@ public class ArrMethod {
     }
 
     public int[] indexLength(int[] arr) {
-        int[] temp = arr;
 
-        if(temp.length <= 10) {
-            for( int i = 0; i < temp.length; i++ ){
-                temp[i] = i+1;
+        if(arr.length <= 10) {
+            for( int i = 0; i < arr.length; i++ ){
+                arr[i] = i+1;
             }
         } else {    System.out.println("인덱스 길이 값이 10을 초과하였습니다.");
-            temp = null;
+            arr = null;
         }
-        return temp;
+        return arr;
     }
 
     public void printArr(int[] arrTemp2) {

@@ -91,7 +91,7 @@ public class Quest {
     }
 
     // 240201
-    public void quest4() {       // while문 입력 계속 받을 수 있게 while문 추가해봤어요
+    public void quest4() {                      // while문으로 입력 계속 받을 수 있게 기능 추가해봤어요
 
         Scanner sc = new Scanner(System.in);
 
