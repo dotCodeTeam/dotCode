@@ -34,7 +34,7 @@ public class ArrMethod {
             System.out.print(result[index] + " ");
         }
         System.out.println();
-        System.out.println("=====================");
+        System.out.println("======================");
         System.out.print(" ");
     }
 
