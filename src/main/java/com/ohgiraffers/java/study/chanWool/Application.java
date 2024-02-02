@@ -9,6 +9,16 @@ public class Application {
 
             예) 1 2 3 4 5 6 7 8 9 10
          */
+        System.out.println("====== Basic =======");
+        int iarr[] = new int[10];
+
+        for (int i = 0; i < iarr.length; i++ )  {
+            iarr[i] = i+1;
+            System.out.print(iarr[i] + " ");
+        }
+        System.out.println();
+        System.out.println("====== Normal ======");
+
 
 /*===================================================================*/
 
@@ -23,6 +33,11 @@ public class Application {
             예) 1 2 3 4 5 6 7 8 9 10
          */
 
+        Method normal = new Method();
+        normal.arrMethod1();
+        System.out.println();
+        System.out.println("======= Hard =======");
+
 /*===================================================================*/
 
         /*  Hard
@@ -35,6 +50,12 @@ public class Application {
 
             예) 1 2 3 4 5 6 7 8 9 10
          */
+
+        Method hard = new Method();
+        int index = hard.inputNum();
+        int iarr2[] = new int[index];
+        int receiveArr[] = hard.inputIndexNum(iarr2);
+        hard.print(receiveArr);
 
     }
 }
