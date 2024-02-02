@@ -16,5 +16,21 @@ public class Basic01 {
          * 단, 출력물의 줄맞춤은 신경쓰지 말고 풀어보세요
          * */
 
+        int iarr[][] = new int[3][4];
+
+        int row;
+        int column;
+        int temp = 0;
+
+        for (row = 0 ; row < iarr.length; row++ ) {
+
+            for (column = 0 ; column < iarr[row].length ; column++ )    {
+                temp++;
+                iarr[row][column] = temp;
+                System.out.print(iarr[row][column] + " ");
+            }
+            System.out.println();
+        }
+
     }
 }
