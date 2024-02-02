@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ArrMethod {
 
-    public void arrMethod1(){
+    public void arrMethod(){
 
         int iarr[] = new int[10];
         for( int i = 0; i < iarr.length; i++ )   {
@@ -19,22 +19,28 @@ public class ArrMethod {
         return sc.nextInt();
     }
 
-    public int[] inputIndexNum(int[] arrTemp) {
-        int[] arr = arrTemp;
-        for( int i = 0; i < arr.length; i++ ){
-            arr[i] = i+1;
+    public int[] indexLength(int[] arr) {
+        int[] temp = arr;
+
+        if(temp.length <= 10) {
+            for( int i = 0; i < temp.length; i++ ){
+                temp[i] = i+1;
+            }
+        } else {    System.out.println("인덱스 길이 값이 10을 초과하였습니다.");
+            temp = null;
         }
-        return arr;
+        return temp;
     }
 
-    public void print(int[] arrTemp2) {
+    public void printArr(int[] arrTemp2) {
         int[] result = arrTemp2;
-        int index;
+        int index;        System.out.println("======================"); System.out.print(" ");
+
         for (index = 0; index < result.length; index++ ) {
             System.out.print(result[index] + " ");
         }
         System.out.println();
-        System.out.println("======================");
+        System.out.println();
         System.out.print(" ");
     }
 
