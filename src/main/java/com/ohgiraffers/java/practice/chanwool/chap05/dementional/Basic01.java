@@ -25,7 +25,7 @@ public class Basic01 {
 
         for ( row = 0; row < iarr.length; row++ ) {
 
-            for (column = 0 ; column < iarr[row].length ; column++ )    {
+            for ( column = 0 ; column < iarr[row].length ; column++ )    {
                 temp++;
                 if      ( row == 0 ) {  space = " ";    }
                 else if ( row == 1 ) {  space = " ";    }
