@@ -33,7 +33,7 @@ public class Application {
             예) 1 2 3 4 5 6 7 8 9 10
          */
 
-        Method normal = new Method();
+        ArrMethod normal = new ArrMethod();
         normal.arrMethod1();
         System.out.println();
         System.out.println("======= Hard =======");
@@ -51,11 +51,10 @@ public class Application {
             예) 1 2 3 4 5 6 7 8 9 10
          */
 
-        Method hard = new Method();
-        int index = hard.inputNum();
-        int iarr2[] = new int[index];
-        int receiveArr[] = hard.inputIndexNum(iarr2);
-        hard.print(receiveArr);
-
+        ArrMethod hard = new ArrMethod();             // 객체생성
+        int index = hard.inputNum();            // 입력받은 index값 선언 후 초기화
+        int iarr2[] = new int[index];           // 입력받은 index값만큼의 배열 생성
+        int resultArr[] = hard.inputIndexNum(iarr2);    // 그 배열에 1부터 입력받은 값을 각 index별 공간에 추가
+        hard.print(resultArr);                  // 최종 배열의 각 index별 공간 값 출력
     }
 }
