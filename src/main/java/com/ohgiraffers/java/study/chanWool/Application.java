@@ -64,7 +64,7 @@ public class Application {
             int iarr[] = new int[index];                                // 입력받은 index 값만큼의 배열 생성
             int resultArr[] = hard.indexLength(iarr);                   // 그 배열에 1부터 입력받은 값을 각 index 값에 추가
 
-            if ( resultArr != null ) {  isTrue = false;
+            if ( resultArr != null ) {  isTrue = false;                 // 해당 조건이 true면 isTrue 에 false 값을 대입 > while 조건문 검사
                 hard.printArr(resultArr);
             }
             // 결과값이 null이 아니면, 최종 배열의 각 index값 출력 (배열 값이 null이 되면 컴파일 에러가 호출되므로 예외처리)
