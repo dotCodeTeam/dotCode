@@ -47,7 +47,7 @@ public class Method {
 
     }
 
-    public void testForExample4(){                                  //  이게 왜안될까요
+    public void quest2(){                                  //  이게 왜안될까요
 
     /*
         2~9 사이의 구구단을 입력받아
@@ -71,8 +71,7 @@ public class Method {
         System.out.println("프로그램을 종료합니다...");
     }
 
-
-    public void printStarInputRowTimes(){                     //  for문으로 피라미드모양 만들기 해봤어요
+    public void quest3(){                     //  for문으로 피라미드모양 만들기 해봤어요
 
         Scanner sc = new Scanner(System.in);
 
@@ -90,9 +89,8 @@ public class Method {
         }
     }
 
-
     // 240201
-    public void testWhileExample2() {       // while문 입력 계속 받을 수 있게 while문 추가해봤어요
+    public void quest4() {       // while문 입력 계속 받을 수 있게 while문 추가해봤어요
 
         Scanner sc = new Scanner(System.in);
 
@@ -116,7 +114,7 @@ public class Method {
 
     // while문 입력 계속 받을 수 있게 while문 추가해봤어요
 
-    public void testSimpleContinueStatement() {                     // 오늘 배운거 응용해봤습니다
+    public void quest5() {                     // 오늘 배운거 응용해봤습니다
 
         // 1~ 100 사이의 숫자를 입력받아 최소공배수 출력
 

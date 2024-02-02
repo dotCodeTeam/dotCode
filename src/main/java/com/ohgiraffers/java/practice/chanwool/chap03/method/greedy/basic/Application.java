@@ -15,6 +15,8 @@ public class Application {
         int min = calc.minusTwoNumber(10,5);
 
         System.out.println("10과 20의 합은 : "+sum);
-        System.out.println("10과 5의 차는 : "+min);
+//        System.out.println("10과 20의 합은 : " + calc.sumTwoNumber(10,20));
+        System.out.println("10과 5의 차는 : " + min);
+        System.out.println("10과 5의 차는 : " + calc.minusTwoNumber(10,5));
     }
 }
