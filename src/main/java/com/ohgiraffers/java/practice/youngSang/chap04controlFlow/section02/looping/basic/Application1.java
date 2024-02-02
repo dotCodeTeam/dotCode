@@ -16,6 +16,7 @@ public class Application1 {
 
     public void allAdd(){
 
-//        for (int i)
+
+
     }
 }
