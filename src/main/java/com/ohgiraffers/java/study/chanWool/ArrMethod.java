@@ -31,9 +31,8 @@ public class ArrMethod {
         return arr;
     }
 
-    public void printArr(int[] arrTemp2) {
+    public void printArr(int index, int[] arrTemp2) {
         System.out.println("======================"); System.out.print(" ");
-        int index;
 
         for (index = 0; index < arrTemp2.length; index++ ) {
             System.out.print(arrTemp2[index] + " ");
