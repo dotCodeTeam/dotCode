@@ -23,15 +23,12 @@ public class Basic01 {
         int temp = 0;
         String space = "";
 
-        for (row = 0 ; row < iarr.length; row++ ) {
+        for ( row = 0; row < iarr.length; row++ ) {
 
             for (column = 0 ; column < iarr[row].length ; column++ )    {
                 temp++;
-                if ( row == 0 )  {
-                    space = " ";
-                }   else if ( row == 1 ) {
-                    space = " ";
-                }
+                if      ( row == 0 ) {  space = " ";    }
+                else if ( row == 1 ) {  space = " ";    }
                 iarr[row][column] = temp;
                 System.out.print(iarr[row][column] + " " + space);
             }
