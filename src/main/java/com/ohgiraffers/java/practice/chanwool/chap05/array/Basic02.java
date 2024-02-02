@@ -1,5 +1,7 @@
 package com.ohgiraffers.java.practice.chanwool.chap05.array;
 
+import java.util.Scanner;
+
 public class Basic02 {
     public static void main(String[] args) {
 
@@ -22,6 +24,20 @@ public class Basic02 {
          * -- 출력 예시 --
          * 준비된 과일이 없습니다.
          * */
+
+        Scanner sc = new Scanner(System.in);
+        String[] fruit = new String[5];
+        fruit = new String[]{"딸기","바나나","복숭아","키위","사과"};
+
+        System.out.print("0부터 4까지의 정수를 입력하세요 : ");
+        int index = sc.nextInt();
+
+        if ( index >= 0 && index <= 4 ) {
+            System.out.println(fruit[index]);
+        }   else    {
+            System.out.println("준비된 과일이 없습니다.");
+        }
+
 
     }
 
