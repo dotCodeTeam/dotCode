@@ -10,6 +10,7 @@ public class Application {
             예) 1 2 3 4 5 6 7 8 9 10
          */
         System.out.println("======= Basic ========");
+        System.out.print(" ");
         int iarr[] = new int[10];
 
         for (int i = 0; i < iarr.length; i++ )  {
@@ -18,6 +19,7 @@ public class Application {
         }
         System.out.println();
         System.out.println("======= Normal =======");
+        System.out.print(" ");
 
 
 /*===================================================================*/
