@@ -65,10 +65,9 @@ public class Application {
             int[] resultArr = hard.indexLength(iarr);           // 그 배열에 1부터 입력받은 값을 각 index 값에 추가
 
             if ( resultArr != null ) {
-                isTrue = false;             // 해당 if절 조건이 true면 isTrue 변수에 false 값을 대입 > while 조건문 검사
+                isTrue = false;                                 // 해당 if절 조건이 true면 isTrue 변수에 false 값을 대입
                 hard.printResult(index,resultArr);
-            }
-            // 결과값이 null이 아니면, 최종 배열의 각 index값 출력 (배열 값이 null이 되면 컴파일 에러가 호출되므로 예외처리)
+            }   // 결과값이 null이 아니면, 최종 배열의 각 index값 출력 (배열 값이 null이 되면 컴파일 에러가 호출되므로 예외처리)
 
         } while (   isTrue   );                                 // while ( true ) 이면 반복, ( false )이면 break;
 
