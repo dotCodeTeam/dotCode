@@ -20,7 +20,7 @@ public class ArrMethod {
     }
 
     public int[] indexLength(int[] arr) {       // int[] arr = iarr;
-
+                                                // parameter = argument;
         if( arr.length <= 10 ) {
             for( int i = 0; i < arr.length; i++ ){
                 arr[i] = i+1;
@@ -31,11 +31,11 @@ public class ArrMethod {
         return arr;
     }
 
-    public void printResult(int checkIndex, int[] arrTemp2) {
+    public void printResult(int checkIndex, int[] arrTemp) {
         System.out.println("======================"); System.out.print(" ");
 
-        for (checkIndex = 0; checkIndex < arrTemp2.length; checkIndex++ ) {
-            System.out.print(arrTemp2[checkIndex] + " ");
+        for ( checkIndex = 0; checkIndex < arrTemp.length; checkIndex++ ) {
+            System.out.print(arrTemp[checkIndex] + " ");
         }
 
         System.out.println();
