@@ -60,7 +60,6 @@ public class Application {
 
         do {
             int index = hard.inputNum();                        // 입력받은 index값 선언 후 초기화 메소드
-
             int[] iarr = new int[index];                        // 입력받은 index 값만큼의 배열 생성
             int[] resultArr = hard.indexLength(iarr);           // 그 배열에 1부터 입력받은 값을 각 index 값에 추가
 

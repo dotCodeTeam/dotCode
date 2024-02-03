@@ -19,7 +19,7 @@ public class ArrMethod {
         return sc.nextInt();
     }
 
-    public int[] indexLength(int[] arr) {
+    public int[] indexLength(int[] arr) {       // int[] arr = iarr;
 
         if( arr.length <= 10 ) {
             for( int i = 0; i < arr.length; i++ ){
