@@ -31,11 +31,11 @@ public class ArrMethod {
         return arr;
     }
 
-    public void printArr(int index, int[] arrTemp2) {
+    public void printResult(int checkIndex, int[] arrTemp2) {
         System.out.println("======================"); System.out.print(" ");
 
-        for (index = 0; index < arrTemp2.length; index++ ) {
-            System.out.print(arrTemp2[index] + " ");
+        for (checkIndex = 0; checkIndex < arrTemp2.length; checkIndex++ ) {
+            System.out.print(arrTemp2[checkIndex] + " ");
         }
 
         System.out.println();
