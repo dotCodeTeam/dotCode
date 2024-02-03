@@ -21,7 +21,7 @@ public class ArrMethod {
 
     public int[] indexLength(int[] arr) {
 
-        if(arr.length <= 10) {
+        if( arr.length <= 10 ) {
             for( int i = 0; i < arr.length; i++ ){
                 arr[i] = i+1;
             }

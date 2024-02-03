@@ -54,15 +54,15 @@ public class Application {
          */
 
         System.out.println("======== Hard ========");
-        ArrMethod hard = new ArrMethod();                               // 객체생성
+        ArrMethod hard = new ArrMethod();                       // 객체생성
 
-        boolean isTrue = true;                                          // 예외처리를 하기위한 boolean 값 선언
+        boolean isTrue = true;                                  // 예외처리를 하기위한 boolean 값 선언
 
         do {
-            int index = hard.inputNum();                                // 입력받은 index값 선언 후 초기화 메소드
+            int index = hard.inputNum();                        // 입력받은 index값 선언 후 초기화 메소드
 
-            int[] iarr = new int[index];                                // 입력받은 index 값만큼의 배열 생성
-            int[] resultArr = hard.indexLength(iarr);                   // 그 배열에 1부터 입력받은 값을 각 index 값에 추가
+            int[] iarr = new int[index];                        // 입력받은 index 값만큼의 배열 생성
+            int[] resultArr = hard.indexLength(iarr);           // 그 배열에 1부터 입력받은 값을 각 index 값에 추가
 
             if ( resultArr != null ) {
                 isTrue = false;             // 해당 if절 조건이 true면 isTrue 변수에 false 값을 대입 > while 조건문 검사
@@ -70,9 +70,9 @@ public class Application {
             }
             // 결과값이 null이 아니면, 최종 배열의 각 index값 출력 (배열 값이 null이 되면 컴파일 에러가 호출되므로 예외처리)
 
-        } while (   isTrue   );                                         // while ( true ) 이면 반복, ( false )이면 break;
+        } while (   isTrue   );                                 // while ( true ) 이면 반복, ( false )이면 break;
 
-        //  입력한 인덱스 값이 10을 넘으면 다시 입력하고 아니라면 종료
+        //  입력한 인덱스 값이 10을 초과하면 다시 입력하고 아니라면 종료
         System.out.println("프로그램을 종료합니다.");
         System.out.println("======================");
     }
