@@ -3,7 +3,7 @@ package com.ohgiraffers.java.practice.chanwool.chap06.method.setterGetter;
 public class Application {
     public static void main(String[] args) {
 
-        MemberVo member = new MemberVo();
+        MemberVO member = new MemberVO();
 
         System.out.println("id : " + member.getId());
         System.out.println("pwd : " + member.getPwd());

@@ -1,9 +1,8 @@
 package com.ohgiraffers.java.practice.chanwool.chap06.method.setterGetter;
 
-public class MemberVo {
+public class MemberVO {
 
     String id;
-
     String pwd;
     String name;
     int age;
