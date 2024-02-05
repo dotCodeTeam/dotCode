@@ -15,15 +15,22 @@ public class Application2 {
          * 1부터 5까지의 합 : 15
          *
          * */
+
+        Application2 a = new Application2();
+        a.addUntilFive();
     }
 
-    public void addUntilFive(){
+    public void addUntilFive() {
 
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("정수를 입력하세요 : ");
-//        int i=1;
-//        for (i)
-//
+        Scanner sc = new Scanner(System.in);
+        System.out.println("정수를 입력하세요 : ");
+        int num = sc.nextInt();
+        int sum = 0;
+        for (int i = 1; i <= num; i++) {
+            sum += i;
+        }
+        System.out.println("1부터 설정 숫자까지의 합 : " + sum);
+
 
     }
 }

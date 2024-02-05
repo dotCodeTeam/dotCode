@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.study.eunSung;
+package com.ohgiraffers.java.study.eunSeong;
 
 public class Eunsung {
 
