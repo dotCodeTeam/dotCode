@@ -10,6 +10,8 @@ public class MemberVO {
     String phone;
     String email;
 
+    public MemberVO(){}
+
     public void setId(String id){
         this.id = id;
     }
