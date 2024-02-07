@@ -30,7 +30,7 @@ public class ApplicationLaundry {
                         else { break; }
                     case 2 : human.putStuff(); break;
                     case 3 : human.putCleanser(); break;
-                    case 4 : human.timer(); break;
+                    case 4 : human.timerSet(); break;
                     case 5 : human.laundry(); break;
                     case 6 : if(human.dry()){    isTrue = false; break;}
                              else { break; }

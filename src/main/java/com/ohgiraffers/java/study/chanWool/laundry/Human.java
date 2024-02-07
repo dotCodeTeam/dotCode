@@ -114,7 +114,7 @@ public class Human {
             System.out.println("전원이 켜져있지 않습니다. 먼저 전원을 켜주세요.");
         }
     }
-    public void timer(){
+    public void timerSet(){
         if(isOn) {
             if(isPutStuff){
                 if(isTimer){
