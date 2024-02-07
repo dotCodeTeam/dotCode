@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Human {
     Machine machine = new Machine();
     private boolean isOn;
-    boolean isPutStuff;
-    boolean isPutCleanser ;
-    boolean isTimer;
-    boolean isLaundryDone;
+    private boolean isPutStuff;
+    private boolean isPutCleanser ;
+    private boolean isTimer;
+    private boolean isLaundryDone;
     private int weight;
 
     public void turnOn(){
