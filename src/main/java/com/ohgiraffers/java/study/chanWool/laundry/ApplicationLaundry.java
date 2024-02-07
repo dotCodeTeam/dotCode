@@ -26,17 +26,15 @@ public class ApplicationLaundry {
                 switch (menuNum){
                     case 1 :
                         human.turnOn();
-                        if(human.checkMeaning()){
-                            isTrue = false; break;
-                        }   else { break; }
+                        if(human.checkMeaning()){   isTrue = false; break;}
+                        else { break; }
                     case 2 : human.putStuff(); break;
                     case 3 : human.putCleanser(); break;
                     case 4 : human.timer(); break;
                     case 5 : human.laundry(); break;
                     case 6 :
-                        if(human.dry()){
-                            isTrue = false; break;
-                        }   else { break;}
+                        if(human.dry()){    isTrue = false; break;}
+                        else { break; }
                     case 9 :
                         isTrue = false; break;
                     default:
