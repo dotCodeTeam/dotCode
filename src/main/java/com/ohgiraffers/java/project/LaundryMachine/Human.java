@@ -2,11 +2,7 @@ package com.ohgiraffers.java.project.LaundryMachine;
 
 public class Human {
 
-    private String turnOn;
+  private final LaundryMachine laundryMachine = new LaundryMachine();
 
-    public Human(String turnOn) {
-        this.turnOn = turnOn;
-    }
-
-
+  public void startUP(){ laundryMachine.startUp();}
 }
