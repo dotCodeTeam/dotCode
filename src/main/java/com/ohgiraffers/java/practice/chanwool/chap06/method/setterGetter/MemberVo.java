@@ -42,9 +42,7 @@ public class MemberVo {
     public String getName(){
         return name;
     }
-    public int getAge(){
-        return age;
-    }
+    public int getAge() { return age; }
     public char getGender(){
         return gender;
     }
