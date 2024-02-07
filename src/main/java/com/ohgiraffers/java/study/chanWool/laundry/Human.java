@@ -6,7 +6,7 @@ public class Human {
     Machine machine = new Machine();
     private boolean isOn;
     private boolean isPutStuff;
-    private boolean isPutCleanser ;
+    private boolean isPutCleanser;
     private boolean isTimer;
     private boolean isLaundryDone;
     private int weight;
@@ -16,8 +16,9 @@ public class Human {
             if(isLaundryDone) {
                 System.out.print("이미 빨래가 완료되었습니다. ");
             }   else  {
-                System.out.println("이미 전원이 켜져 있습니다.");
+                System.out.print("이미 전원이 켜져 있습니다. ");
             }
+            System.out.println();
         }
         else  {
             this.isOn = true;
@@ -30,9 +31,10 @@ public class Human {
         boolean isTrue = false;
         String answer = "";
         if( isOn ) {
-            if(isLaundryDone) {
-                System.out.print("건조하지 않고 종료하시겠습니까? ( Y/N ) :");
+            if(isPutStuff || isPutCleanser || isLaundryDone) {
+                System.out.print("종료하시겠습니까? ( Y/N ) :");
                 answer += sc.next().charAt(0);
+                System.out.println("===================================");
                 if(answer.equals("Y") || answer.equals("y")) {
                     isTrue = true;
                 }   else  {
@@ -65,17 +67,7 @@ public class Human {
                 System.out.print("메뉴를 선택해주세요 : ");
                 this.weight = sc.nextInt();
                 switch (weight) {
-                    case 1:
-                        machine.checkWeight(weight);
-                        System.out.println(weight + "번 메뉴를 선택하셨습니다. 시간이 자동으로 설정됩니다.");
-                        this.isPutStuff = true;
-                        break;
-                    case 2:
-                        machine.checkWeight(weight);
-                        System.out.println(weight + "번 메뉴를 선택하셨습니다. 시간이 자동으로 설정됩니다.");
-                        this.isPutStuff = true;
-                        break;
-                    case 3:
+                    case 1, 2, 3:
                         machine.checkWeight(weight);
                         System.out.println(weight + "번 메뉴를 선택하셨습니다. 시간이 자동으로 설정됩니다.");
                         this.isPutStuff = true;
@@ -87,7 +79,8 @@ public class Human {
                         System.out.println("다시 선택해 주세요.");
                 }
             }
-        }   else  {
+        }
+        else  {
             System.out.println("전원이 켜져있지 않습니다. 먼저 전원을 켜주세요.");
         }
     }
@@ -114,7 +107,7 @@ public class Human {
             System.out.println("전원이 켜져있지 않습니다. 먼저 전원을 켜주세요.");
         }
     }
-    public void timer(){
+    public void timerSet(){
         if(isOn) {
             if(isPutStuff){
                 if(isTimer){
@@ -134,19 +127,33 @@ public class Human {
             }
         }
         else {
-            if(!isTimer){
-                System.out.println("전원이 켜져있지 않습니다. 먼저 전원을 켜주세요.");
-            }
+            System.out.println("전원이 켜져있지 않습니다. 먼저 전원을 켜주세요.");
         }
     }
 
     public void laundry(){
+
+        Scanner sc = new Scanner(System.in);
+        String answer = "";
+
         if(isOn) {
             if(isPutStuff) {
-                if(isLaundryDone) {
+                if(!isPutCleanser && !isLaundryDone) {
+                    System.out.print("세제를 넣지 않았습니다. 계속 진행할까요? (Y/N) :");
+                    answer += sc.next().charAt(0);
+                    if ( answer.equals("Y") || answer.equals("y") ) {
+                        machine.shakeStuff();
+                        this.isLaundryDone = machine.isLauandryDone();
+                    }   else {
+                        System.out.println("메뉴로 돌아갑니다.");
+                    }
+                }
+                else if (isPutCleanser && !isLaundryDone) {
+                        machine.shakeStuff();
+                        this.isLaundryDone = machine.isLauandryDone();
+                }
+                else {
                     System.out.println("빨래가 완료되었습니다. 건조하기를 이용하세요.");
-                }   else {
-                    this.isLaundryDone = machine.shakeStuff();
                 }
             }
             else {
