@@ -32,9 +32,8 @@ public class ApplicationLaundry {
                     case 3 : human.putCleanser(); break;
                     case 4 : human.timer(); break;
                     case 5 : human.laundry(); break;
-                    case 6 :
-                        if(human.dry()){    isTrue = false; break;}
-                        else { break; }
+                    case 6 : if(human.dry()){    isTrue = false; break;}
+                             else { break; }
                     case 9 :
                         isTrue = false; break;
                     default:
