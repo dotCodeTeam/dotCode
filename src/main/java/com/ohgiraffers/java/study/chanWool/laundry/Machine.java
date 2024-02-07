@@ -47,8 +47,8 @@ public class Machine {
         System.out.println("건조를 시작합니다.");
         System.out.println("====== 남은시간 ======");
         System.out.println("..."+dryTimer+"분...");
-        System.out.println("..."+dryTimer/4+"분...");
-        System.out.println("..."+dryTimer/10+"분...");
+        System.out.println("..."+dryTimer/3+"분...");
+        System.out.println("..."+dryTimer/12+"분...");
         System.out.println("건조가 완료되었습니다. (대충 알림음)");
         this.allDone = true;
     }
