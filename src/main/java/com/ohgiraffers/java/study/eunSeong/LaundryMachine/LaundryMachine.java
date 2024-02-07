@@ -4,8 +4,8 @@ public class LaundryMachine {
     private boolean isOn;   //초기에는 시동이 꺼진 false 상태이다.
     private boolean laundry;
     private boolean laundrySoap;
-    private boolean laundryStart;
     private int laundryTime;
+    private boolean laundryStart;
 
 
     public void startUp() {
