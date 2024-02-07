@@ -19,7 +19,7 @@ public class ApplicationLaundry {
                 System.out.println("6. 건조 하기"); // 건조가 끝나면 자동으로 전원이 꺼지고 종료되게
                 System.out.println("9. 종료 하기");
                 System.out.println("===================================");
-                System.out.print("메뉴를 선택하세요 :");
+                System.out.print("메뉴를 선택하세요 : ");
                 int menuNum = sc.nextInt();
                 System.out.println("===================================");
 
