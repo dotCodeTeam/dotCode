@@ -5,7 +5,6 @@ public class LaundryMachine {
     private boolean laundry;
     private boolean laundrySoap;
     private boolean laundryStart;
-    private boolean laundryStop;
     private int laundryTime;
 
 
