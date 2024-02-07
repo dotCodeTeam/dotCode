@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.practice.subin.cahp06classObject;
+package com.ohgiraffers.java.practice.subin.chap06classObject;
 
 public class MemberVO {
     public String id;

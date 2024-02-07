@@ -1,15 +1,16 @@
 package com.ohgiraffers.java.practice.chanwool.chap06.method.setterGetter;
 
-public class MemberVo {
+public class MemberVO {
 
     String id;
-
     String pwd;
     String name;
     int age;
     char gender;
     String phone;
     String email;
+
+    public MemberVO(){}
 
     public void setId(String id){
         this.id = id;

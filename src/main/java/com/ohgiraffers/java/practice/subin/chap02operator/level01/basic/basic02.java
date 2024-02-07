@@ -1,5 +1,7 @@
 package com.ohgiraffers.java.practice.subin.chap02operator.level01.basic;
 
+import java.util.Scanner;
+
 public class basic02 {
     public static void main(String[] args) {
 
@@ -13,5 +15,18 @@ public class basic02 {
          * 합격입니다~~!!! 또는 아쉽지만 불합격입니다..
          *
          * */
+        Scanner sc = new Scanner(System.in);
+        int score = 0;
+        System.out.println("점수를 입력하세요 : ");
+        score = sc.nextInt();
+
+
+        if (score >= 60) {
+            System.out.println("합격입니다.");
+        } else {
+            System.out.println("아쉽지만 불합격입니다.");
+        }
+        System.out.println();
+
     }
 }

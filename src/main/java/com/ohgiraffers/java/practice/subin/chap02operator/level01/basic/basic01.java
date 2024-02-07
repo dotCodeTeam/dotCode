@@ -13,6 +13,11 @@ public class basic01 {
          *
          * */
 
+        int a = 10;
+        int b = 20;
+        int largerNum = (a > b) ? a : b;
+        System.out.println("두 수 중 큰 수는 " + largerNum + " 입니다.");
+
 
     }
 }
