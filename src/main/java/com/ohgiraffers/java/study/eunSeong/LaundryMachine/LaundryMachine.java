@@ -4,9 +4,8 @@ public class LaundryMachine {
     private boolean isOn;   //초기에는 시동이 꺼진 false 상태이다.
     private boolean laundry;
     private boolean laundrySoap;
-    private boolean laundryStart;
-    private boolean laundryStop;
     private int laundryTime;
+    private boolean laundryStart;
 
 
     public void startUp() {
@@ -59,14 +58,14 @@ public class LaundryMachine {
                     System.out.println("현재 설정하신 세탁시간은 " + this.laundryTime + "분 입니다.");
                 } else {
                     System.out.println("아직 세제를 넣지 않으셨습니다. 세제를 넣어주세요.");
-            }
-        } else {
+                }
+            } else {
                 System.out.println("아직 빨래감을 넣지 않으셨습니다. 빨래감 먼저 넣어주세요.");
             }
-    } else {
+        } else {
             System.out.println("세탁기 전원이 켜져 있지 않습니다. 다시 전원을 켜주세요.");
+        }
     }
-}
 
 
     public void laundryStart() {
