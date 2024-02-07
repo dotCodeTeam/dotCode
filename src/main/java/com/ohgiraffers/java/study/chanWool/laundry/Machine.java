@@ -30,16 +30,17 @@ public class Machine {
         System.out.println("빨래감 중량이 '" + weight + "'이므로 " + shakeTimer + "분 만큼 동작합니다.");
     }
 
-    public boolean shakeStuff(){
+    public void shakeStuff(){
         System.out.println("빨래를 시작합니다.");
         System.out.println("====== 남은시간 ======");
         System.out.println("..."+ shakeTimer +"분...");
         System.out.println("..."+ shakeTimer/3 +"분...");
         System.out.println("..."+ shakeTimer/6 +"분...");
         System.out.println("..."+ shakeTimer/10 +"분...");
+        System.out.println("====================");
         System.out.println("빨래가 완료되었습니다. (대충 알림음)");
+
         this.doneLaundry = true;
-        return doneLaundry;
     }
 
     public void dryStuff(){
@@ -49,10 +50,13 @@ public class Machine {
         System.out.println("..."+dryTimer+"분...");
         System.out.println("..."+dryTimer/3+"분...");
         System.out.println("..."+dryTimer/12+"분...");
+        System.out.println("====================");
         System.out.println("건조가 완료되었습니다. (대충 알림음)");
+
         this.allDone = true;
     }
 
+    public boolean isLauandryDone(){ return doneLaundry; }
     public boolean isAllDone() {
         return allDone;
     }
