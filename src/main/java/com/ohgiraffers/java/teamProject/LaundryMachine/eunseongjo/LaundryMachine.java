@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.study.eunSeong.LaundryMachine;
+package com.ohgiraffers.java.teamProject.LaundryMachine.eunseongjo;
 
 public class LaundryMachine {
     private boolean isOn;   //초기에는 시동이 꺼진 false 상태이다.
