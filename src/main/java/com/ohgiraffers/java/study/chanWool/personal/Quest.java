@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.study.chanWool;
+package com.ohgiraffers.java.study.chanWool.personal;
 
 import java.util.Scanner;
 

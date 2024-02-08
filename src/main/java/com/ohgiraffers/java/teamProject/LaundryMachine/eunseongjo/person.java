@@ -13,12 +13,13 @@ public class person {
     }
 
     public void laundrySoapIn() {
-       laundryMachine.laundrySoapIn();
+        laundryMachine.laundrySoapIn();
     }
 
     public void laundryTimeIn() {
         laundryMachine.laundryTimeIn();
     }
+
     public void laundryStart() {
         laundryMachine.laundryStart();
     }
