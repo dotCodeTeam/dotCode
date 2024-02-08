@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.study.suBin.LaundryMachine;
+package com.ohgiraffers.java.teamProject.LaundryMachine.sooBin;
 
 import java.util.Scanner;
 
