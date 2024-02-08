@@ -1,11 +1,11 @@
-package com.ohgiraffers.java.study.eunSeong.LaundryMachine;
+package com.ohgiraffers.java.teamProject.LaundryMachine.eunseongjo;
 
 public class LaundryMachine {
     private boolean isOn;   //초기에는 시동이 꺼진 false 상태이다.
-    private boolean laundry;
-    private boolean laundrySoap;
-    private boolean laundryStart;
-    private boolean laundryStop;
+    private boolean doLaundry;
+    private boolean doLaundrySoap;
+    private boolean doLaundryStart;
+    private boolean doLaundryStop;
     private int laundryTime;
 
 
@@ -20,10 +20,10 @@ public class LaundryMachine {
 
     public void laundryIn() {
         if (isOn) {
-            if (laundry) {
+            if (doLaundry) {
                 System.out.println("이미 빨래감이 들어있습니다! 세제를 투입해주세요!");
             } else {
-                this.laundry = true;
+                this.doLaundry = true;
                 System.out.println("가져오신 빨래감을 넣었습니다");
             }
         } else {
@@ -34,11 +34,11 @@ public class LaundryMachine {
 
     public void laundrySoapIn() {
         if (isOn) {
-            if (laundry) {
-                if (laundrySoap) {
+            if (doLaundry) {
+                if (doLaundrySoap) {
                     System.out.println("이미 세제를 투입하였습니다! 시간을 설정해주세요!");
                 } else {
-                    this.laundrySoap = true;
+                    this.doLaundrySoap = true;
                     System.out.println("세탁 세제를 투입하였습니다.");
                     System.out.println("이제 세탁시간을 설정해주세요. 한번 누를때마다 10분씩 늘어납니다.");
                 }
@@ -53,8 +53,8 @@ public class LaundryMachine {
 
     public void laundryTimeIn() {
         if (isOn) {
-            if (laundry) {
-                if (laundrySoap) {
+            if (doLaundry) {
+                if (doLaundrySoap) {
                     this.laundryTime += 10;
                     System.out.println("현재 설정하신 세탁시간은 " + this.laundryTime + "분 입니다.");
                 } else {
@@ -72,8 +72,8 @@ public class LaundryMachine {
     public void laundryStart() {
 
         if (isOn) {
-            if (laundry) {
-                if (laundrySoap) {
+            if (doLaundry) {
+                if (doLaundrySoap) {
                     if (this.laundryTime > 0) {
                         System.out.println("빨래를 시작합니다.");
                         for (int i = this.laundryTime; i >= 1; i--) {

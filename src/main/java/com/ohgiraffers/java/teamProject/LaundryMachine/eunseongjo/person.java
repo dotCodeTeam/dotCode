@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.study.eunSeong.LaundryMachine;
+package com.ohgiraffers.java.teamProject.LaundryMachine.eunseongjo;
 
 public class person {
 

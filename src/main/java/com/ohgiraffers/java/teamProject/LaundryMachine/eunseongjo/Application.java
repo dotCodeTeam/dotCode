@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.study.eunSeong.LaundryMachine;
+package com.ohgiraffers.java.teamProject.LaundryMachine.eunseongjo;
 
 import java.util.Scanner;
 
@@ -28,7 +28,7 @@ public class Application {
                 default : System.out.println("잘못된 번호를 선택하셨습니다."); break;
             }
 
-    }
+        }
 
     }
 }
