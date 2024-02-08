@@ -11,19 +11,21 @@ public class Application1 {
          * */
 
         Application1 a = new Application1();
-        a.allAdd();
 
+        int sum2 = 0;
 
+        int result = a.allAdd(sum2);
+
+        System.out.println("1부터 10까지의 합은 : " + result + "입니다.");
     }
 
-    public void allAdd() {
+    public int allAdd(int sum) {
 
-        int sum = 0;
-
-        for (int i = 1; i < 11; i++) {
+        for (int i = 1; i <= 10; i++) {
             sum += i;
         }
-        System.out.println("1부터 10까지의 합은 : " + sum + "입니다.");
+
+        return sum;
 
     }
 }
