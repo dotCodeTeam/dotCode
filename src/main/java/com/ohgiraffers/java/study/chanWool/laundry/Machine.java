@@ -4,7 +4,6 @@ public class Machine {
 
     private String weight;
     private int shakeTimer;
-    private int dryTimer;
     private boolean doneLaundry;
     private boolean allDone;
 
@@ -44,12 +43,12 @@ public class Machine {
     }
 
     public void dryStuff(){
-        this.dryTimer = shakeTimer/3;
+        int dryTimer = shakeTimer / 3;
         System.out.println("건조를 시작합니다.");
         System.out.println("====== 남은시간 ======");
-        System.out.println("..."+dryTimer+"분...");
-        System.out.println("..."+dryTimer/3+"분...");
-        System.out.println("..."+dryTimer/12+"분...");
+        System.out.println("..."+ dryTimer +"분...");
+        System.out.println("..."+ dryTimer /3+"분...");
+        System.out.println("..."+ dryTimer /12+"분...");
         System.out.println("====================");
         System.out.println("건조가 완료되었습니다. (대충 알림음)");
 

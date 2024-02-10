@@ -22,7 +22,7 @@ public class Human {
         }
         else  {
             this.isOn = true;
-            machine.turnOn();
+            machine.isOn();
         }
     }
 

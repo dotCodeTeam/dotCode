@@ -8,7 +8,7 @@ public class Machine {
     private boolean doneLaundry;
     private boolean allDone;
 
-    public void turnOn(){
+    public void isOn(){
         System.out.println("세탁기 전원을 켭니다.");
     }
 

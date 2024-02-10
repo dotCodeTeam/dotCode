@@ -55,7 +55,5 @@ public class Application {
             s2.learn();
         }
 
-        
-
     }
 }
