@@ -15,14 +15,12 @@ public class PaymentService {
                 case CASH : pay = new CashPay();  break;
                 case CARD : pay = new CardPay();  break;
                 default: pay = new Pay() {@Override public void payment(){}
-                                          @Override public void complete(){}}; break;
+                                          @Override public void complete(){}};
+                pay.fail(); break;
+
             }
-            if(option.equals(CASH) || option.equals(CARD)){
-                pay.payment();
-                pay.complete();
-            }   else  {
-                pay.fail();
-            }
+            pay.payment();
+            pay.complete();
     }
 
     public String answer(){
