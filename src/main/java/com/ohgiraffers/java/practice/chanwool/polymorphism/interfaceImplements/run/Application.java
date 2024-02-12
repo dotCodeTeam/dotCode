@@ -8,7 +8,8 @@ public class Application {
     public static void main(String[] args) {
 
         PaymentService paymentService = new PaymentService();
-        paymentService.process(paymentService.answer(new Scanner(System.in)));
+        Scanner scanner = new Scanner(System.in);
 
+        paymentService.process(paymentService.answer(scanner));
     }
 }

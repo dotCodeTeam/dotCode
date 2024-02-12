@@ -14,24 +14,23 @@ public class PaymentService {
             switch (option) {
                 case CASH : pay = new CashPay();  break;
                 case CARD : pay = new CardPay();  break;
-                default: pay = new Pay() {@Override public void payment(){}
-                                          @Override public void complete(){}};
-                pay.fail(); break;
-
             }
-            pay.payment();
-            pay.complete();
+
+            if(pay != null){
+                pay.payment();
+                pay.complete();
+            }   else  {
+                System.out.println("잘못된 결제 방식입니다.");
+            }
     }
 
     public String answer(Scanner sc){
-        String answer;
         System.out.println("어떤 방식으로 결제하시겠습니까?");
         System.out.println("# 카드");
         System.out.println("# 현금");
         System.out.print(">> ");
-        answer = sc.nextLine();
 
-        return answer;
+        return sc.nextLine();
     }
 
 }

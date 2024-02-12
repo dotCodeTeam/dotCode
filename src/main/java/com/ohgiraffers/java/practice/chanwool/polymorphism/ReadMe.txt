@@ -18,7 +18,6 @@ Title : 결제 방식을 입력받아 해당 방식에 맞는 실행문 출력
 1. 결제하는 행위와 관련된 interface파일 'Pay'와 다음 메소드 생성
     A.결제방식 : public abstract payment()   // 명시적선언
     B.결제완료 : complete()                  // 묵시적선언
-    C.결제실패 : default void fail(){}       // ?? ( 강사님 확인 필요 )
 
 2. 비지니스모델에 따른 결제방식과 관련된 클래스 추가 및 Overriding
     A.현금 : CashPay
@@ -33,8 +32,7 @@ Title : 결제 방식을 입력받아 해당 방식에 맞는 실행문 출력
    # method
    1.PaymentService(){} : public              // 필드를 초기화하는 기본생성자
    2.process(String option){} : public void   // 어떻게 입력받았는지 조건을 검사해 해당 조건에 맞는 인스턴스 객체로 초기화
-   3.answer(Scanner sc){} : public String   // 문자열값을 전달인자를 통해 인스턴스객체로 초기화 시켜주며,
-                                               nextLine() 기능으로 문자열을 받아 해당 자료형태로 다시 return
+   3.answer(Scanner sc){} : public String     // nextLine() 기능으로 문자열을 받아 return
 
 4. Application 예시
 
@@ -42,7 +40,9 @@ Title : 결제 방식을 입력받아 해당 방식에 맞는 실행문 출력
         public static void main(String[] args) {
 
             PaymentService paymentService = new PaymentService();
-            paymentService.process(paymentService.answer(new Scanner(System.in)));
+            Scanner sc = new Scanner(System.in);
+
+            paymentService.process(paymentService.answer(sc));
 
         }
     }
