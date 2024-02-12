@@ -23,8 +23,7 @@ public class PaymentService {
             pay.complete();
     }
 
-    public String answer(){
-        Scanner sc = new Scanner(System.in);
+    public String answer(Scanner sc){
         String answer;
         System.out.println("어떤 방식으로 결제하시겠습니까?");
         System.out.println("# 카드");
