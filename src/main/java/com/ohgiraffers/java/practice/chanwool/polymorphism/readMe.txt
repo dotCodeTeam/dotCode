@@ -33,7 +33,8 @@ Title : 결제 방식을 입력받아 해당 방식에 맞는 실행문 출력
    # method
    1.PaymentService() : public              // 필드를 초기화하는 기본생성자
    2.process(String option) : public void   // 어떻게 입력받았는지 조건을 검사해 해당 조건에 맞는 인스턴스 객체로 초기화
-   3.answer(){} : public String             // 문자열값을 Scanner.nextLine() 기능으로 받아 문자열 자료형태로 return
+   3.answer(Scanner sc){} : public String   // 문자열값을 전달인자를 통해 인스턴스객체로 초기화 시켜주며,
+                                               nextLine() 기능으로 문자열을 받아 해당 자료형태로 다시 return
 
 4. Application 예시
 
