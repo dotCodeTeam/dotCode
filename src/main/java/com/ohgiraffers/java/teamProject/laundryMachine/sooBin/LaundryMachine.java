@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.teamProject.LaundryMachine.sooBin;
+package com.ohgiraffers.java.teamProject.laundryMachine.sooBin;
 
 public class LaundryMachine {
     private boolean powerOn;

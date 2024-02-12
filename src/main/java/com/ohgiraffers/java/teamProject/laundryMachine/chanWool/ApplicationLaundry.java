@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.teamProject.LaundryMachine.chanWool;
+package com.ohgiraffers.java.teamProject.laundryMachine.chanWool;
 
 import java.util.Scanner;
 
