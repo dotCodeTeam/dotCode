@@ -40,9 +40,9 @@ Title : 결제 방식을 입력받아 해당 방식에 맞는 실행문 출력
         public static void main(String[] args) {
 
             PaymentService paymentService = new PaymentService();
-            Scanner sc = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
 
-            paymentService.process(paymentService.answer(sc));
+            paymentService.process(paymentService.answer(scanner));
 
         }
     }
