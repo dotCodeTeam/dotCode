@@ -1,13 +1,14 @@
-package com.ohgiraffers.java.study.chanWool.laundry;
+package com.ohgiraffers.java.teamProject.laundryMachine.chanWool;
 
 public class Machine {
 
     private String weight;
     private int shakeTimer;
+    private int dryTimer;
     private boolean doneLaundry;
     private boolean allDone;
 
-    public void turnOn(){
+    public void isOn(){
         System.out.println("세탁기 전원을 켭니다.");
     }
 
@@ -43,12 +44,12 @@ public class Machine {
     }
 
     public void dryStuff(){
-        int dryTimer = shakeTimer / 3;
+        this.dryTimer = shakeTimer/3;
         System.out.println("건조를 시작합니다.");
         System.out.println("====== 남은시간 ======");
-        System.out.println("..."+ dryTimer +"분...");
-        System.out.println("..."+ dryTimer /3+"분...");
-        System.out.println("..."+ dryTimer /12+"분...");
+        System.out.println("..."+dryTimer+"분...");
+        System.out.println("..."+dryTimer/3+"분...");
+        System.out.println("..."+dryTimer/12+"분...");
         System.out.println("====================");
         System.out.println("건조가 완료되었습니다. (대충 알림음)");
 

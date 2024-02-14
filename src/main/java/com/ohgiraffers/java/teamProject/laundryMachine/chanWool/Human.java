@@ -1,4 +1,4 @@
-package com.ohgiraffers.java.study.chanWool.laundry;
+package com.ohgiraffers.java.teamProject.laundryMachine.chanWool;
 
 import java.util.Scanner;
 
@@ -9,6 +9,7 @@ public class Human {
     private boolean isPutCleanser;
     private boolean isTimer;
     private boolean isLaundryDone;
+    private int weight;
 
     public void turnOn(){
         if ( isOn ){
@@ -21,7 +22,7 @@ public class Human {
         }
         else  {
             this.isOn = true;
-            machine.turnOn();
+            machine.isOn();
         }
     }
 
@@ -64,7 +65,7 @@ public class Human {
                 System.out.println("3. 대량");
                 System.out.println("4. 이전으로");
                 System.out.print("메뉴를 선택해주세요 : ");
-                int weight = sc.nextInt();
+                this.weight = sc.nextInt();
                 switch (weight) {
                     case 1, 2, 3:
                         machine.checkWeight(weight);
