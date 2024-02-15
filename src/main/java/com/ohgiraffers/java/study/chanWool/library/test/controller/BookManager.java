@@ -20,7 +20,7 @@ public class BookManager {
             System.out.println("해당 카테고리는 존재하지 않습니다.");
         }  else  {
                 br.add(book);
-                br.get(index).setbNo(index+1);      // 해당 인덱스 값에 맞게 번호 부여
+                br.get(br.size()-1).setbNo(index+1);      // 해당 인덱스 값에 맞게 번호 부여
                 index++;
                 System.out.println("'" + book.getTitle()+"' 이(가) 도서목록에 추가됩니다.");
         }
@@ -42,7 +42,7 @@ public class BookManager {
 
         if ( index >= 0 && index < br.size()) {
             br.remove(index);
-            this.index--;
+            this.index = br.size()+1;
             System.out.println("삭제되었습니다.");
         } else {
             System.out.println("유효하지 않은 도서 번호 입니다.");
