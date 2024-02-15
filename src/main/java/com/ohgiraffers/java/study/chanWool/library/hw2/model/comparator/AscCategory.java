@@ -2,7 +2,6 @@ package com.ohgiraffers.java.study.chanWool.library.hw2.model.comparator;
 
 import com.ohgiraffers.java.study.chanWool.library.test.model.dto.BookDTO;
 
-import java.util.ArrayList;
 import java.util.Comparator;
 
 public class AscCategory implements Comparator<BookDTO> {

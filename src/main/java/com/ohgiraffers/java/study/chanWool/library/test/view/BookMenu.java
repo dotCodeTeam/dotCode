@@ -31,9 +31,9 @@ public class BookMenu {
                 case 1:
                      bm.addBook(this.inputBook()); break;
                 case 2:
-                    int bNo = bm.searchBook(inputBookTitle());
-                    if (bNo != 0)   {   bm.deleteBook(bNo);}
-                    else            {   System.out.println("해당 제목의 책 정보가 없습니다.");} break;
+                    bm.searchBook(inputBookTitle());
+
+                    break;
                 case 3:
                     boolean isSearch = true;
                     int searchNum;
@@ -51,7 +51,7 @@ public class BookMenu {
                             switch (searchNum) {
                                 case 1:
                                     sc.nextLine();
-                                    bm.printBook(bm.searchBook(inputBookTitle())-1); break;
+                                    bm.printBook(bm.searchBook(inputBookTitle())); break;
                                 case 2:
                                     int index;
                                     System.out.print("Index 입력 : ");

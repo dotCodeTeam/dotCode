@@ -28,10 +28,7 @@ public class BookManager {
 
     public void deleteBook(int index){      // 전달받은 도서 번호로 해당 정보 삭제
 
-        if( br.get(index-1) != null ) {
-            br.remove(br.get(index-1));
-        }
-        System.out.println((index-1)+"번째 책이 삭제되었습니다.");
+
     }
 
     public int searchBook(String title){
@@ -39,10 +36,10 @@ public class BookManager {
 
         for(int i=0; i<br.size(); i++){
             if(br.get(i).getTitle().equals(title)){ // 파라미터로 전달받은 문자열형 값과 비교
-                temp = br.get(i).getbNo();          // 위 조건문이 true라면 해당 인덱스의 원하는필드 값을 정수형으로 초기화
+                temp = i ;                          // 위 조건문이 true라면 해당 인덱스의 원하는필드 값을 정수형으로 초기화
             }
         }
-        return temp;                                // 그 후 해당 정수값 반환
+        return temp;
     }
 
     public void printBook(int index){

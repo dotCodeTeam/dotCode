@@ -46,12 +46,12 @@ public class BookMenu {
         String author = sc.nextLine();
 
         System.out.println(" 카테고리를 입력하세요 : ");
-        String category = sc.nextLine();
+        int category = sc.nextInt();
 
         // 도서 번호는 0으로 임시 초기화?????
-        int bNo = 0;
+//        int bNo = 0;
 
-        return new BookDTO(bNo, title, author, category);
+        return new BookDTO( category, title, author);
     }
 
     public String inputBookTitle(){
