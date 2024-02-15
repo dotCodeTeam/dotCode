@@ -16,13 +16,13 @@ public class BookManager {
     }
 
     public void addBook(BookDTO book){
-        if(book.getCategory() < 1 || book.getCategory() > 4 ) {
+        if (book.getCategory() < 1 || book.getCategory() > 4 ) {
             System.out.println("해당 카테고리는 존재하지 않습니다.");
-        }   else  {
-            br.add(book);
-            br.get(index).setbNo(index+1);      // 해당 인덱스 값에 맞게 번호 부여
-            index++;
-            System.out.println("'" + book.getTitle()+"' 이(가) 도서목록에 추가됩니다.");
+        }  else  {
+                br.add(book);
+                br.get(index).setbNo(index+1);      // 해당 인덱스 값에 맞게 번호 부여
+                index++;
+                System.out.println("'" + book.getTitle()+"' 이(가) 도서목록에 추가됩니다.");
         }
     }
 
