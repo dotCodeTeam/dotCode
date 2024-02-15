@@ -30,18 +30,13 @@ public class BookMenu {
 
                 switch (selectNum){
                     case 1:
-                         sc.nextLine();
                          bm.addBook(this.inputBook()); break;
                     case 2:
-                         if( bm.searchBook(inputBookTitle()) < 0 ){
-                             System.out.println("해당하는 책이 없습니다.");
-                         }  else  {
-                             bm.deleteBook(bm.searchBook(inputBookTitle()));
-                         }  break;
+                         sc.nextLine();
+                         bm.deleteBook(bm.searchBook(inputBookTitle())); break;
                     case 3:
                         boolean isSearch = true;
                         int searchNum;
-                        sc.nextLine();
 
                         while (isSearch){
                             System.out.println("===== 책 검색 =====");
@@ -115,7 +110,7 @@ public class BookMenu {
                         System.out.println("해당하는 번호가 없습니다."); break;
                 }
             }   catch (Exception e) {
-                System.out.println("다시 입력하세요.");
+                System.out.println("다시 입력해주세요.");
             }
 
         }
@@ -160,7 +155,6 @@ public class BookMenu {
     }
 
     public String inputBookTitle(){
-        sc.nextLine();
         String searchTitle;
         System.out.print("제목 검색 : ");
         searchTitle = sc.nextLine();

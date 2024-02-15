@@ -28,21 +28,24 @@ public class BookManager {
 
     public void deleteBook(int index) {      // 전달받은 도서 번호로 해당 정보 삭제
 
-        boolean found = false; // 삭제된 도서가 있는지 여부를 저장하기 위한 변수
+//        boolean found = false; // 삭제된 도서가 있는지 여부를 저장하기 위한 변수
+//
+//        for (int i = 0; i < br.size(); i++) {
+//            if (i == index) {
+//                br.remove(i);
+//                found = true;
+//                break;
+//            }
+//        }
+//        if (found) {
+//            System.out.println("도서 삭제 완료");
 
-        for (int i = 0; i < br.size(); i++) {
-            if (i == index) {
-                br.remove(i);
-                found = true;
-                break;
-            }
-        }
-        if (found) {
-            System.out.println("도서 삭제 완료");
+        if ( index >= 0 && index < br.size()) {
+            br.remove(index);
+            System.out.println("삭제되었습니다.");
         } else {
             System.out.println("유효하지 않은 도서 번호 입니다.");
         }
-
     }
 
     public int searchBook(String title){
