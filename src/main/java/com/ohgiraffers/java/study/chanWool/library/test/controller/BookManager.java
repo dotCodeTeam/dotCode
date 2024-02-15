@@ -26,20 +26,33 @@ public class BookManager {
         }
     }
 
-    public void deleteBook(int index){      // 전달받은 도서 번호로 해당 정보 삭제
+    public void deleteBook(int index) {      // 전달받은 도서 번호로 해당 정보 삭제
 
+        boolean found = false; // 삭제된 도서가 있는지 여부를 저장하기 위한 변수
+
+        for (int i = 0; i < br.size(); i++) {
+            if (i == index) {
+                br.remove(i);
+                found = true;
+                break;
+            }
+        }
+        if (found) {
+            System.out.println("도서 삭제 완료");
+        } else {
+            System.out.println("유효하지 않은 도서 번호 입니다.");
+        }
 
     }
 
     public int searchBook(String title){
-        int temp = 0;
 
         for(int i=0; i<br.size(); i++){
             if(br.get(i).getTitle().equals(title)){ // 파라미터로 전달받은 문자열형 값과 비교
-                temp = i ;                          // 위 조건문이 true라면 해당 인덱스의 원하는필드 값을 정수형으로 초기화
+                return i ;                          // 위 조건문이 true라면 해당 인덱스의 원하는필드 값을 정수형으로 초기화
             }
         }
-        return temp;
+        return -1;
     }
 
     public void printBook(int index){
