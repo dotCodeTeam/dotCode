@@ -30,6 +30,7 @@ public class BookMenu {
 
                 switch (selectNum){
                     case 1:
+                         sc.nextLine();
                          bm.addBook(this.inputBook()); break;
                     case 2:
                          sc.nextLine();
@@ -50,6 +51,7 @@ public class BookMenu {
 
                                 switch (searchNum) {
                                     case 1:
+                                        sc.nextLine();
                                         bm.printBook(bm.searchBook(inputBookTitle())); break;
                                     case 2:
                                         int index;
@@ -70,7 +72,7 @@ public class BookMenu {
                                 }
 
                             }   catch (Exception e){
-                                System.out.println("다시 입력해주세요.");
+                                System.out.println("해당 제목의 책이 없습니다. 다시 입력해주세요.");
                             }
                         }   break;
 
@@ -123,15 +125,12 @@ public class BookMenu {
         int category;
         String title;
         String author;
-        boolean isInput = true;
 
-        do{
+        while (true) {
             try {
                 System.out.print("카테고리 (1:인문, 2:자연과학, 3:의료, 4:기타) >> ");
                 category = Integer.parseInt(sc.next());
-                if( category < 1 || category > 4 ){
-                    sc.nextLine(); break;
-                }   else {  book.setCategory(category); }
+                book.setCategory(category);
 
                 sc.nextLine();
                 System.out.print("제목 : ");
@@ -142,14 +141,12 @@ public class BookMenu {
                 author = sc.next();
                 book.setAuthor(author);
 
-                isInput = false;
+                break;
             } catch (Exception e) {
                 System.out.println("다시 입력해주세요.");
                 sc.nextLine();
             }
-
-        }   while (isInput);
-
+        }
 
         return book;
     }

@@ -42,6 +42,7 @@ public class BookManager {
 
         if ( index >= 0 && index < br.size()) {
             br.remove(index);
+            this.index--;
             System.out.println("삭제되었습니다.");
         } else {
             System.out.println("유효하지 않은 도서 번호 입니다.");
