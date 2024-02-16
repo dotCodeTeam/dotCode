@@ -1,4 +1,4 @@
-## Project intro 📝
+## ${\textsf{\color{green}Project intro}}$ 📝
   - 직원 출결관리 시스템
 
 ## Member 👨‍👨‍👧‍👧👩‍👦‍👦
