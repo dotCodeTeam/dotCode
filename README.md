@@ -10,6 +10,9 @@
 ## Project Schedule
 
 ## 프로젝트 기술스택 💡
+### ✔️Back-end
+<img src="https://img.shields.io/badge/IntelliJ IDEA-6DB33F?style=for-the-badge&logo=IntelliJ IDEA&logoColor=green">
+<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=green">
 
 
 ## 프로젝트 주요기능
