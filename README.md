@@ -1,10 +1,7 @@
 <div align="center">
-<h2>[2024] 직원 출결 시스템 🍀</h2>
-  직원들의 출결을 관리하여 리워드를 지급 한 후, 승진 여부를 결정하는 시스템입니다!<br> dotCode 회사는 직원의 근태를 가장 중요히 여기는 회사이기 때문에 근태가 좋지 않다면 정리해고 대상에 들어갈 수 있습니다! 이 점을 주의해주세요!
+<h2>[2024] 직원 출결 시스템 📝</h2>
+  직원들의 출결을 관리하여 리워드를 지급 한 후, 승진 여부를 결정하는 시스템입니다!<br> dotCode 회사는 직원의 근태를 가장 중요히 여기는 회사이기 때문에 근태가 좋지 않다면 정리해고 대상에 들어갈 수 있습니다! 이 점을 주의해주세요!<br><br>
 </div>
-
-## ${\textsf{\color{green}Project intro}}$ 📝
-  - 직원 출결관리 시스템
 
 ## Member 👨‍👨‍👧‍👧👩‍👦‍👦
 |                                         Backend                                          |                                         Backend                                          |                                         Backend                                          |                                         Backend                                         |                                       Backend                                        | 
@@ -14,13 +11,13 @@
 
 ## Project Schedule
 
-## 프로젝트 기술스택 💡
+## Project Tech Stack 💡
 ### ✔️Back-end
 <img src="https://img.shields.io/badge/IntelliJ IDEA-6DB33F?style=for-the-badge&logo=IntelliJ IDEA&logoColor=green">
 <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=green">
 
 
-## 프로젝트 주요기능
+## Project Funtions
 
 
 
