@@ -72,7 +72,7 @@ public class BookMenu {
                                 }
 
                             }   catch (Exception e){
-                                System.out.println("해당 제목의 책이 없습니다. 다시 입력해주세요.");
+                                System.out.println("입력값이 잘못되었습니다. 다시 입력해주세요.");
                             }
                         }   break;
 

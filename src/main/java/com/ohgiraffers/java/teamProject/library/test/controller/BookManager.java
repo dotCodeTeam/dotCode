@@ -32,7 +32,7 @@ public class BookManager {
             br.remove(index);
             System.out.println("삭제되었습니다.");
         } else {
-            System.out.println("유효하지 않은 도서 번호 입니다.");
+            System.out.println("해당 제목의 책이 없습니다. 다시 확인해주세요.");
         }
         for(int i = 0; i < br.size(); i++ ){
             br.get(i).setbNo(i+1);
