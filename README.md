@@ -1,4 +1,5 @@
 ## Project intro 📝
+  - 직원 출결관리 시스템
 
 ## Member 👨‍👨‍👧‍👧👩‍👦‍👦
 |                                         Backend                                          |                                         Backend                                          |                                         Backend                                          |                                         Backend                                         |                                       Backend                                        | 
