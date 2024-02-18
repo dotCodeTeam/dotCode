@@ -14,8 +14,6 @@ public class AscCategory implements Comparator<BookDTO> {
             result = 1;
         }   else if (o1.getCategory() < o2.getCategory()){
             result = -1;
-        }   else {
-            result = 0;
         }
 
         return result;

@@ -31,7 +31,7 @@ public class BookMenu {
                 switch (selectNum){
                     case 1:
                          sc.nextLine();
-                         bm.addBook(this.inputBook()); break;
+                         bm.addBook(inputBook()); break;
                     case 2:
                          sc.nextLine();
                          bm.deleteBook(bm.searchBook(inputBookTitle())); break;

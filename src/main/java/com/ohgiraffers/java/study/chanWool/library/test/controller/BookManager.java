@@ -15,12 +15,12 @@ public class BookManager {
     }
 
     public void addBook(BookDTO book){
-        if (book.getCategory() < 1 || book.getCategory() > 4 ) {
-            System.out.println("해당 카테고리는 존재하지 않습니다.");
+        if (book.getCategory() > 0 && book.getCategory() <= 4 ) {
+            br.add(book);
+            for(int i = 0; i < br.size(); i++ ){    br.get(i).setbNo(i+1);}
+            System.out.println("'" + book.getTitle()+"' 이(가) 도서목록에 추가됩니다.");
         }  else  {
-                br.add(book);
-                for(int i = 0; i < br.size(); i++ ){    br.get(i).setbNo(i+1);}
-                System.out.println("'" + book.getTitle()+"' 이(가) 도서목록에 추가됩니다.");
+            System.out.println("해당 카테고리는 존재하지 않습니다.");
         }
     }
 
@@ -67,7 +67,7 @@ public class BookManager {
                         result = 1;
                     } else if (o1.getbNo() < o2.getbNo()){
                         result  = -1;
-                    }   else { result = 0;}
+                    }
                     return result;
                 }
             });
