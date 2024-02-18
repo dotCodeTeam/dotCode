@@ -10,6 +10,11 @@
 |                       [Cho EunSeong](https://github.com/eunseongjo)                        |                            [Yoon Soobin](https://github.com/nunu1101)                            |                            [Lim ChanWool](https://github.com/cwul94)                            |                          [Go YoungSang](https://github.com/moass2024)                           |                         [Park JinHyun](https://github.com/0COK0)                         |
 
 ## Project Schedule
+|날짜|스케쥴명|내용|
+|------|---|---|
+|24.02.16|첫 프로젝트 회의|출결 시스템 DB 회의/ git hub oranization 생성 및 read me 작성|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
 
 ## Project Tech Stack 💡
 ### ✔️Back-end
