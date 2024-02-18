@@ -41,8 +41,8 @@ public class BookMenu {
 
                         while (isSearch){
                             System.out.println("===== 책 검색 =====");
-                            System.out.println("1. 책 제목으로 찾기");
-                            System.out.println("2. Index로 찾기");
+                            System.out.println("1. 책 제목 찾기");
+                            System.out.println("2. 도서 번호 찾기");
                             System.out.println("3. 이전으로");
                             System.out.println("==================");
                             System.out.print(">> ");
@@ -55,7 +55,7 @@ public class BookMenu {
                                         bm.printBook(bm.searchBook(inputBookTitle())); break;
                                     case 2:
                                         int index;
-                                        System.out.print("Index 입력 : ");
+                                        System.out.print("도서 번호 입력 : ");
                                         try {
                                             sc.nextLine();
                                             index = sc.nextInt();
@@ -72,7 +72,7 @@ public class BookMenu {
                                 }
 
                             }   catch (Exception e){
-                                System.out.println("해당 제목의 책이 없습니다. 다시 입력해주세요.");
+                                System.out.println("입력값이 잘못되었습니다. 다시 입력해주세요.");
                             }
                         }   break;
 
@@ -97,7 +97,7 @@ public class BookMenu {
                                     case 1,2 : bm.printBookList(bm.sortedBookList(categoryNum)); break;
                                     case 3:
                                         bm.printBookList(bm.sortedBookList(categoryNum));
-                                        System.out.println("상태를 초기화하고 처음으로 돌아갑니다.");
+                                        System.out.println("도서 목록을 초기화합니다.");
                                         isCategory = false; break;
                                 }
                             } catch (Exception e) {
