@@ -32,10 +32,11 @@
 ## Project Management Method
 ** 1. 첫 프로젝트 회의 : 큰 틀 잡기 **
 - [전체 보기](https://docs.google.com/spreadsheets/d/1YogkHXzy_kJyizxFvUkbJNSwWlOVim1U43TBdAWUXFI/edit?usp=sharing)
-  
-![스프린트 추적](https://github.com/dotCodeTeam/dotCode/assets/134928447/677a7ba9-dab5-48bd-96ad-d47e2aceed4b)
 
+![스프린트 추적](https://github.com/dotCodeTeam/dotCode/assets/134928447/11731aa8-82ae-41dc-aec4-99e918a911e4)
 
+** 2. 두번째 프로젝트 회의 : Data Modeling **
+![스프린트 추적](https://github.com/dotCodeTeam/dotCode/assets/134928447/e204e397-f90b-49b6-a1ca-af02875e4741)
 
 
 
