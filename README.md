@@ -32,9 +32,8 @@
 ## Project Management Method
 ** 1. 첫 프로젝트 회의 : 큰 틀 잡기 **
 - [전체 보기](https://docs.google.com/spreadsheets/d/1YogkHXzy_kJyizxFvUkbJNSwWlOVim1U43TBdAWUXFI/edit?usp=sharing)
-![스프린트 추적]
-
-
+  
+![스프린트 추적](https://github.com/dotCodeTeam/dotCode/assets/134928447/677a7ba9-dab5-48bd-96ad-d47e2aceed4b)
 
 
 
