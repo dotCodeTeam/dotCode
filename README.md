@@ -13,7 +13,7 @@
 |날짜|스케쥴명|내용|
 |------|---|---|
 |24.02.16|첫 프로젝트 회의|출결 시스템 DB 회의/ git hub oranization 생성 및 read me 작성|
-|24.02.19|두번째 프로젝트 회의|Database 모델링 작업|
+|24.02.19|두번째 프로젝트 회의|DA#을 활용한 Database 모델링 작업|
 |테스트1|테스트2|테스트3|
 
 ## Project Tech Stack 💡
@@ -31,7 +31,8 @@
 
 ## Project Management Method
 ** 1. 첫 프로젝트 회의 : 큰 틀 잡기 **
-- [전체 보기] 
+- [전체 보기](https://docs.google.com/spreadsheets/d/1YogkHXzy_kJyizxFvUkbJNSwWlOVim1U43TBdAWUXFI/edit?usp=sharing)
+![스프린트 추적]
 
 
 
