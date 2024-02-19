@@ -29,7 +29,10 @@
 <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
 </div>
 
-## Project Funtions
+## Project Management Method
+** 1. 첫 프로젝트 회의 : 큰 틀 잡기 **
+- [전체 보기] 
+
 
 
 
