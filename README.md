@@ -37,9 +37,9 @@
 ## Project Schedule
 |날짜|스케쥴명|내용|
 |------|---|---|
-|24.02.16|첫 프로젝트 회의|출결 시스템 DB 회의/ git hub oranization 생성 및 read me 작성|
-|24.02.19|두번째 프로젝트 회의|DA#을 활용한 Database 모델링 작업|
-||||
+|24.02.16|첫 프로젝트 회의|출결 시스템 DB 회의/ git hub oranization 생성 및 organization read me 작성|
+|24.02.19|두번째 프로젝트 회의|Project read me 작성 / Application 실행 시 예상 클래스 확인|
+|24.02.20|세번째 프로젝트 회의|miro를 활용한 유스케이스 다이어그램 작성/ 찬울님의 깃허브 강의 듣기|
 
 ## Project Tech Stack 💡
 ### ✔️Back-end
@@ -55,12 +55,15 @@
 </div>
 
 ## Project Management Method
-** 1-1. 첫 프로젝트 회의 : 큰 틀 잡기 **
+** 1-1. 큰 틀 잡기 **
 - [전체 보기](https://docs.google.com/spreadsheets/d/1YogkHXzy_kJyizxFvUkbJNSwWlOVim1U43TBdAWUXFI/edit?usp=sharing)
   
 ![스프린트 추적](https://github.com/dotCodeTeam/dotCode/assets/134928447/4ab9f1c0-c943-403f-88fb-041f03417b8a)
 
-** 1-2. 두번째 프로젝트 회의 : DataBase Modeling
+** 1-2. Use Case Diagram **
+![스프린트 추적](https://github.com/dotCodeTeam/dotCode/assets/134928447/216f7cbb-5f38-42f5-ae7a-85c5724c1eb8)
+
+** 1-3. DataBase Modeling
 ![스프린트 추적](https://github.com/dotCodeTeam/dotCode/assets/134928447/e204e397-f90b-49b6-a1ca-af02875e4741)
 
 ** 3. 스크럼 보드 **
