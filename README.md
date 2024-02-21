@@ -40,6 +40,7 @@
 |24.02.16|첫 프로젝트 회의|출결 시스템 DB 회의/ git hub oranization 생성 및 organization read me 작성|
 |24.02.19|두번째 프로젝트 회의|Project read me 작성 / Application 실행 시 예상 클래스 확인|
 |24.02.20|세번째 프로젝트 회의|miro를 활용한 유스케이스 다이어그램 작성/ 찬울님의 깃허브 강의 듣기|
+|24.02.21|네번째 프로젝트 회의|da#을 활용하여 출퇴근시스템 데이터모델링 작성/ MySQL에 데이터베이스 입력|
 
 ## Project Tech Stack 💡
 ### ✔️Back-end
@@ -64,6 +65,7 @@
 ![스프린트 추적](https://github.com/dotCodeTeam/dotCode/assets/134928447/216f7cbb-5f38-42f5-ae7a-85c5724c1eb8)
 
 ** 1-3. DataBase Modeling
+- [단계별 보기](https://docs.google.com/spreadsheets/d/1C87q15x0XjstHbo-en2ivPs50yKtqrOh5AFT1MqlvHg/edit?usp=sharing)
 ![스프린트 추적](https://github.com/dotCodeTeam/dotCode/assets/134928447/e204e397-f90b-49b6-a1ca-af02875e4741)
 
 ** 3. 스크럼 보드 **
