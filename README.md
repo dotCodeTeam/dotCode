@@ -37,7 +37,7 @@
 ## Project Schedule
 |날짜|스케쥴명|내용|
 |------|---|---|
-|24.02.16|첫 프로젝트 회의|출결 시스템 DB 회의/ git hub oranization 생성 및 organization read me 작성|
+|24.02.16|첫 프로젝트 회의|출결 시스템 DB 회의/ git hub organization 생성 및 organization read me 작성|
 |24.02.19|두번째 프로젝트 회의|Project read me 작성 / Application 실행 시 예상 클래스 확인|
 |24.02.20|세번째 프로젝트 회의|miro를 활용한 유스케이스 다이어그램 작성/ 찬울님의 깃허브 강의 듣기|
 |24.02.21|네번째 프로젝트 회의|da#을 활용하여 출퇴근시스템 데이터모델링 작성/ MySQL에 데이터베이스 입력|
